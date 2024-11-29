@@ -1,0 +1,386 @@
+{
+  "getir": {
+    "name": "Getir",
+    "deliveryTime": "15-20 dk",
+    "minOrderAmount": 100,
+    "products": [
+      {
+        "id": "g1",
+        "name": "Kırmızı Mercimek",
+        "brand": "Yayla",
+        "price": 29.90,
+        "category": "Bakliyat",
+        "description": "1kg, Seçilmiş kırmızı mercimek",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "g2",
+        "name": "Soğan",
+        "brand": "Getir",
+        "price": 12.90,
+        "category": "Sebze",
+        "description": "1kg, Taze kuru soğan",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1508747703725-719777637510?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "g3",
+        "name": "Havuç",
+        "brand": "Getir",
+        "price": 14.90,
+        "category": "Sebze",
+        "description": "500g, Taze havuç",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=200",
+        "unit": "g",
+        "amount": 500
+      },
+      {
+        "id": "g4",
+        "name": "Zeytinyağı",
+        "brand": "Komili",
+        "price": 189.90,
+        "category": "Yağ",
+        "description": "1L, Sızma zeytinyağı",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=200",
+        "unit": "L",
+        "amount": 1
+      },
+      {
+        "id": "g5",
+        "name": "Un",
+        "brand": "Sinangil",
+        "price": 45.90,
+        "category": "Temel Gıda",
+        "description": "2kg, Ekmeklik buğday unu",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=200",
+        "unit": "kg",
+        "amount": 2
+      },
+      {
+        "id": "g6",
+        "name": "Bitter Çikolata",
+        "brand": "Nestle",
+        "price": 32.90,
+        "category": "Çikolata",
+        "description": "200g, %70 Kakao",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=200",
+        "unit": "g",
+        "amount": 200
+      },
+      {
+        "id": "g7",
+        "name": "Tereyağı",
+        "brand": "Sütaş",
+        "price": 89.90,
+        "category": "Süt Ürünleri",
+        "description": "250g, Tuzsuz",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1589985270958-bf087ce0c8c1?w=200",
+        "unit": "g",
+        "amount": 250
+      },
+      {
+        "id": "g8",
+        "name": "Yumurta",
+        "brand": "Getir",
+        "price": 79.90,
+        "category": "Kahvaltılık",
+        "description": "15 Adet, L Boy",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=200",
+        "unit": "adet",
+        "amount": 15
+      },
+      {
+        "id": "g9",
+        "name": "Patlıcan",
+        "brand": "Getir",
+        "price": 24.90,
+        "category": "Sebze",
+        "description": "1kg, Kemer patlıcan",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1613884823276-964edc7a9f24?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "g10",
+        "name": "Nohut",
+        "brand": "Yayla",
+        "price": 34.90,
+        "category": "Bakliyat",
+        "description": "1kg, İri taneli",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1515442261605-65987783cb6a?w=200",
+        "unit": "kg",
+        "amount": 1
+      }
+    ]
+  },
+  "yemeksepeti": {
+    "name": "Yemeksepeti",
+    "deliveryTime": "20-30 dk",
+    "minOrderAmount": 75,
+    "products": [
+      {
+        "id": "y1",
+        "name": "Kırmızı Mercimek",
+        "brand": "Reis",
+        "price": 27.90,
+        "category": "Bakliyat",
+        "description": "1kg, Seçilmiş kırmızı mercimek",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "y2",
+        "name": "Soğan",
+        "brand": "Yemeksepeti Market",
+        "price": 11.90,
+        "category": "Sebze",
+        "description": "1kg, Taze kuru soğan",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1508747703725-719777637510?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "y3",
+        "name": "Havuç",
+        "brand": "Yemeksepeti Market",
+        "price": 13.90,
+        "category": "Sebze",
+        "description": "500g, Taze havuç",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=200",
+        "unit": "g",
+        "amount": 500
+      },
+      {
+        "id": "y4",
+        "name": "Zeytinyağı",
+        "brand": "Tariş",
+        "price": 184.90,
+        "category": "Yağ",
+        "description": "1L, Sızma zeytinyağı",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=200",
+        "unit": "L",
+        "amount": 1
+      },
+      {
+        "id": "y5",
+        "name": "Un",
+        "brand": "Söke",
+        "price": 43.90,
+        "category": "Temel Gıda",
+        "description": "2kg, Ekmeklik buğday unu",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=200",
+        "unit": "kg",
+        "amount": 2
+      },
+      {
+        "id": "y6",
+        "name": "Bitter Çikolata",
+        "brand": "Ülker",
+        "price": 29.90,
+        "category": "Çikolata",
+        "description": "200g, %70 Kakao",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=200",
+        "unit": "g",
+        "amount": 200
+      },
+      {
+        "id": "y7",
+        "name": "Tereyağı",
+        "brand": "Pınar",
+        "price": 87.90,
+        "category": "Süt Ürünleri",
+        "description": "250g, Tuzsuz",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1589985270958-bf087ce0c8c1?w=200",
+        "unit": "g",
+        "amount": 250
+      },
+      {
+        "id": "y8",
+        "name": "Yumurta",
+        "brand": "Yemeksepeti Market",
+        "price": 77.90,
+        "category": "Kahvaltılık",
+        "description": "15 Adet, L Boy",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=200",
+        "unit": "adet",
+        "amount": 15
+      },
+      {
+        "id": "y9",
+        "name": "Patlıcan",
+        "brand": "Yemeksepeti Market",
+        "price": 22.90,
+        "category": "Sebze",
+        "description": "1kg, Kemer patlıcan",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1613884823276-964edc7a9f24?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "y10",
+        "name": "Nohut",
+        "brand": "Reis",
+        "price": 32.90,
+        "category": "Bakliyat",
+        "description": "1kg, İri taneli",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1515442261605-65987783cb6a?w=200",
+        "unit": "kg",
+        "amount": 1
+      }
+    ]
+  },
+  "migros": {
+    "name": "Migros",
+    "deliveryTime": "30-45 dk",
+    "minOrderAmount": 150,
+    "products": [
+      {
+        "id": "m1",
+        "name": "Kırmızı Mercimek",
+        "brand": "Migros",
+        "price": 26.90,
+        "category": "Bakliyat",
+        "description": "1kg, Seçilmiş kırmızı mercimek",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "m2",
+        "name": "Soğan",
+        "brand": "Migros",
+        "price": 10.90,
+        "category": "Sebze",
+        "description": "1kg, Taze kuru soğan",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1508747703725-719777637510?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "m3",
+        "name": "Havuç",
+        "brand": "Migros",
+        "price": 12.90,
+        "category": "Sebze",
+        "description": "500g, Taze havuç",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=200",
+        "unit": "g",
+        "amount": 500
+      },
+      {
+        "id": "m4",
+        "name": "Zeytinyağı",
+        "brand": "Migros",
+        "price": 179.90,
+        "category": "Yağ",
+        "description": "1L, Sızma zeytinyağı",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=200",
+        "unit": "L",
+        "amount": 1
+      },
+      {
+        "id": "m5", "amount": 1
+      },
+      {
+        "id": "m5",
+        "name": "Un",
+        "brand": "Migros",
+        "price": 41.90,
+        "category": "Temel Gıda",
+        "description": "2kg, Ekmeklik buğday unu",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=200",
+        "unit": "kg",
+        "amount": 2
+      },
+      {
+        "id": "m6",
+        "name": "Bitter Çikolata",
+        "brand": "Migros",
+        "price": 28.90,
+        "category": "Çikolata",
+        "description": "200g, %70 Kakao",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=200",
+        "unit": "g",
+        "amount": 200
+      },
+      {
+        "id": "m7",
+        "name": "Tereyağı",
+        "brand": "Migros",
+        "price": 85.90,
+        "category": "Süt Ürünleri",
+        "description": "250g, Tuzsuz",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1589985270958-bf087ce0c8c1?w=200",
+        "unit": "g",
+        "amount": 250
+      },
+      {
+        "id": "m8",
+        "name": "Yumurta",
+        "brand": "Migros",
+        "price": 75.90,
+        "category": "Kahvaltılık",
+        "description": "15 Adet, L Boy",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=200",
+        "unit": "adet",
+        "amount": 15
+      },
+      {
+        "id": "m9",
+        "name": "Patlıcan",
+        "brand": "Migros",
+        "price": 21.90,
+        "category": "Sebze",
+        "description": "1kg, Kemer patlıcan",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1613884823276-964edc7a9f24?w=200",
+        "unit": "kg",
+        "amount": 1
+      },
+      {
+        "id": "m10",
+        "name": "Nohut",
+        "brand": "Migros",
+        "price": 31.90,
+        "category": "Bakliyat",
+        "description": "1kg, İri taneli",
+        "inStock": true,
+        "imageUrl": "https://images.unsplash.com/photo-1515442261605-65987783cb6a?w=200",
+        "unit": "kg",
+        "amount": 1
+      }
+    ]
+  }
+}

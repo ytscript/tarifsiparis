@@ -1,0 +1,50 @@
+@layer components {
+  .filter-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .filter-chip {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium
+           bg-orange-50 text-orange-800 hover:bg-orange-100
+           transition-all duration-200 transform hover:scale-105;
+  }
+
+  .filter-chip-active {
+    @apply bg-orange-100 text-orange-800 shadow-sm;
+  }
+
+  .filter-section-title {
+    @apply text-sm font-medium text-gray-900 mb-3;
+  }
+
+  .filter-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+  }
+
+  .filter-button-hover {
+    @apply hover:bg-orange-50 hover:text-orange-600 hover:border-orange-200
+           active:bg-orange-100 active:text-orange-700
+           focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2;
+  }
+
+  .filter-checkbox-wrapper {
+    @apply relative flex items-center;
+  }
+
+  .filter-checkbox-input {
+    @apply peer sr-only;
+  }
+
+  .filter-checkbox-label {
+    @apply flex items-center gap-2 p-2.5 rounded-lg cursor-pointer
+           transition-all duration-200
+           hover:bg-orange-50 hover:text-orange-600;
+  }
+
+  .filter-checkbox-custom {
+    @apply w-4 h-4 border-2 rounded-md transition-all duration-200
+           border-gray-300 bg-white
+           peer-checked:border-orange-500 peer-checked:bg-orange-500
+           peer-focus:ring-2 peer-focus:ring-orange-500 peer-focus:ring-offset-2;
+  }
+}

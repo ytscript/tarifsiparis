@@ -1,0 +1,86 @@
+@layer base {
+  :root {
+    /* Colors */
+    --color-primary: theme('colors.orange.600');
+    --color-primary-hover: theme('colors.orange.700');
+    --color-primary-light: theme('colors.orange.50');
+    --color-primary-border: theme('colors.orange.200');
+    
+    /* Shadows */
+    --shadow-sm: theme('boxShadow.sm');
+    --shadow-md: theme('boxShadow.md');
+    --shadow-lg: theme('boxShadow.lg');
+    
+    /* Border Radius */
+    --radius-sm: theme('borderRadius.md');
+    --radius-md: theme('borderRadius.lg');
+    --radius-lg: theme('borderRadius.xl');
+    --radius-full: theme('borderRadius.full');
+    
+    /* Spacing */
+    --space-xs: theme('spacing.1');
+    --space-sm: theme('spacing.2');
+    --space-md: theme('spacing.4');
+    --space-lg: theme('spacing.6');
+    --space-xl: theme('spacing.8');
+    
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer components {
+  .filter-checkbox {
+    @apply w-4 h-4 rounded border-gray-300 text-orange-600 
+           focus:ring-orange-500 focus:ring-offset-0 
+           transition-colors duration-200;
+  }
+
+  .filter-label {
+    @apply flex items-center space-x-2 text-sm text-gray-700 
+           select-none cursor-pointer;
+  }
+
+  .filter-button {
+    @apply inline-flex items-center px-4 py-2 
+           border border-gray-300 rounded-md 
+           shadow-sm text-sm font-medium 
+           text-gray-700 bg-white 
+           hover:bg-gray-50 
+           focus:outline-none focus:ring-2 
+           focus:ring-offset-2 focus:ring-orange-500 
+           transition-colors duration-200;
+  }
+
+  .filter-badge {
+    @apply inline-flex items-center px-3 py-1 
+           rounded-full text-sm font-medium 
+           bg-orange-100 text-orange-800 
+           transition-colors duration-200;
+  }
+
+  .filter-select {
+    @apply block w-full pl-3 pr-10 py-2 text-sm 
+           border-gray-300 rounded-md 
+           focus:outline-none focus:ring-2 
+           focus:ring-orange-500 focus:border-orange-500 
+           transition-colors duration-200;
+  }
+
+  .filter-drawer {
+    @apply fixed inset-y-0 right-0 
+           bg-white shadow-xl 
+           transform transition-transform duration-300 
+           ease-in-out z-50;
+  }
+
+  .filter-section {
+    @apply space-y-2 py-4;
+  }
+
+  .filter-heading {
+    @apply text-sm font-medium text-gray-900 mb-3;
+  }
+}
