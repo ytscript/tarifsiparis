@@ -1,8 +1,10 @@
 import React from 'react';
-import { Clock, Users, ChefHat, ScrollText } from 'lucide-react';
+import { Clock, Users, ChefHat } from 'lucide-react';
 import type { Recipe } from '../../types/recipe';
 import { DifficultyIndicator } from './DifficultyIndicator';
 import { CostIndicator } from './CostIndicator';
+import { ShareButton } from './ShareButton';
+import { FavoriteButton } from '../FavoriteButton';
 
 interface DetailedRecipeCardProps {
   recipe: Recipe;
@@ -17,6 +19,10 @@ export function DetailedRecipeCard({ recipe }: DetailedRecipeCardProps) {
           alt={recipe.title}
           className="w-full h-full object-cover"
         />
+        <div className="absolute top-4 right-4 flex items-center gap-2">
+          <ShareButton recipeId={recipe.id} title={recipe.title} />
+          <FavoriteButton recipeId={recipe.id} />
+        </div>
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
           <h1 className="text-3xl font-bold text-white mb-2">{recipe.title}</h1>
           <div className="flex items-center text-white gap-4">
